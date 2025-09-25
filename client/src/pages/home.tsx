@@ -217,7 +217,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all" data-testid="feature-reaction-time">
+            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-lg hover:scale-105 transition-all duration-300" data-testid="feature-reaction-time">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-primary" />
               </div>
@@ -225,7 +225,7 @@ export default function Home() {
               <p className="text-muted-foreground text-sm">Measure and improve your response speed with precision timing down to milliseconds.</p>
             </Card>
 
-            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all" data-testid="feature-endurance">
+            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-lg hover:scale-105 transition-all duration-300" data-testid="feature-endurance">
               <div className="w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center mb-4">
                 <Heart className="w-6 h-6 text-secondary" />
               </div>
@@ -233,7 +233,7 @@ export default function Home() {
               <p className="text-muted-foreground text-sm">Build stamina through progressive difficulty levels and extended training sessions.</p>
             </Card>
 
-            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all" data-testid="feature-reflexes">
+            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-lg hover:scale-105 transition-all duration-300" data-testid="feature-reflexes">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-primary" />
               </div>
@@ -241,7 +241,7 @@ export default function Home() {
               <p className="text-muted-foreground text-sm">Sharpen your reflexes with unpredictable laser patterns and multi-directional targets.</p>
             </Card>
 
-            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all" data-testid="feature-analytics">
+            <Card className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-lg hover:scale-105 transition-all duration-300" data-testid="feature-analytics">
               <div className="w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-6 h-6 text-secondary" />
               </div>
